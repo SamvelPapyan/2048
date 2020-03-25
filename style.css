@@ -1,0 +1,42 @@
+#score, #gameover{
+	color:red;
+}
+#row1, #row2, #row3, #row4{
+	display:flex;
+	margin-bottom:2px;
+}
+#col1, #col2, #col3, #col4{
+	width:80%;
+	border-radius:20px;
+	height:80px;
+	text-align:center;
+	font-size:30px;
+	margin-right:2px;
+	
+}
+#x2048x h1,#playagain,#score,#gameover{
+	text-align:center;
+}
+#scene{
+	width:330px;
+	background:rgb(249, 255, 162);
+	padding:2px;
+	border:2px solid rgb(249, 244, 162);
+	border-radius:10px;
+}
+#x2048x{
+	background:purple;
+	padding:10px;
+	width:340px;
+	border:5px solid blue;
+	border-radius:20px;
+	margin:auto;
+}
+#playagain{
+	color:purple;
+	background:gold;
+	border:2px solid orange;
+	border-radius:10px;
+	padding:3px;
+	margin-left:125px;
+}
